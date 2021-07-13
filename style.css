@@ -1,0 +1,76 @@
+/* Set global styles */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #293241;
+  background-color: #98c1d9;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+h4 {
+  font-size: 0.8em;
+}
+
+ul {
+  list-style: square;
+  font-size: 14px;
+}
+
+li {
+  padding: 10px 0px;
+}
+
+/* Set all button styles */
+.button {
+  padding: 10px;
+  margin: 10px;
+  background-color: #ee6c4d;
+  color: #f8f9fa;
+  text-decoration: none;
+  float: right;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #293241;
+}
+
+/* Set content and card styles */
+#content {
+  width: 100%;
+  float: left;
+  clear: both;
+  display: grid;
+  place-items: center;
+}
+
+.card.active {
+  border-top: 10px solid #293241;
+  border-radius: 10px;
+  padding: 5px 25px;
+  margin: 15px;
+  background-color: #FFF;
+  width: 40%
+}
+
+.card.hidden {
+  border-top: 10px solid #293241;
+  border-radius: 10px;
+  padding: 5px 25px;
+  margin: 15px;
+  background-color: #FFF;
+  width: 40%
+}
